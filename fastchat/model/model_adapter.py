@@ -93,7 +93,10 @@ OPENAI_MODEL_LIST = (
     "o1-mini",
 )
 
-
+DEEPSEEK_MODEL_LIST = (
+    "deepseek-chat",
+    "deepseek-reason"
+)
 class BaseModelAdapter:
     """The base and the default model adapter."""
 
